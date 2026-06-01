@@ -24,7 +24,7 @@
       {%- if entry.html -%}<a href="{{ entry.html }}" target="_blank">{{ entry.title }}</a>{%- else -%}{{ entry.title }}{%- endif -%}
     </div>
 
-    <div style="color:#555; font-size:0.9em; margin-top:0.2rem;">
+    <div style="color:#111; font-size:0.9em; margin-top:0.2rem;">
       {%- for author in entry.author_array -%}
         {%- assign author_last_html = author.last | replace: '*', '<sup>*</sup>' -%}
         {%- assign author_is_self = false -%}
@@ -34,7 +34,7 @@
       {%- endfor -%}
     </div>
 
-    <div style="color:#777; font-size:0.85em; margin-top:0.2rem; font-style:italic;">
+    <div style="color:#111; font-size:0.85em; margin-top:0.2rem; font-style:italic; font-weight:600;">
       {%- if entry.type == 'article' -%}
         {{ entry.journal }}
       {%- elsif entry.type == 'inproceedings' or entry.type == 'incollection' -%}
