@@ -47,7 +47,7 @@ Some of my current and past affiliations include [MIT](https://www.mit.edu/), [C
   </div>
   <div>
     <div><a href="https://jumptrading.com" target="_blank"><strong>Jump Trading</strong></a> &mdash; Software Engineering Intern &nbsp;|&nbsp; <span style="color:#888;">Summer 2026</span></div>
-    <div style="margin-top:0.3rem;">GPU/C++ performance engineering.</div>
+    <div style="margin-top:0.3rem;"> Cool performance engineering problems.</div>
   </div>
 </div>
 
